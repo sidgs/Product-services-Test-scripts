@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="78.671185">
+<testcase classname="Test G-mail smoke scenario" name="Test login with valid credentials" time="78.671185">
+<system-out><![CDATA[Given Open firefox and start application....................................passed
+When I enter valid "vnani@rocketmail.com" and valid "sathwika"..............passed
+Then user should able to login successfully.................................passed
+Then application should be closed...........................................passed
+]]></system-out>
+</testcase>
+</testsuite>

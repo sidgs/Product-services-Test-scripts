@@ -1,0 +1,84 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 11,
+        "name": "Test login with valid credentials",
+        "description": "",
+        "id": "test-g-mail-smoke-scenario;test-login-with-valid-credentials;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 65442870726,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Open firefox and start application",
+            "match": {
+              "location": "Smoketestnew.Open_firefox_and_start_application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3332161358,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I enter valid \"vnani@rocketmail.com\" and valid \"sathwika\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "vnani@rocketmail.com",
+                  "offset": 15
+                },
+                {
+                  "val": "sathwika",
+                  "offset": 48
+                }
+              ],
+              "location": "Smoketestnew.I_enter_valid_and_valid(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 8270518939,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user should able to login successfully",
+            "match": {
+              "location": "Smoketestnew.user_should_able_to_login_successfully()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1625634398,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "application should be closed",
+            "match": {
+              "location": "Smoketestnew.application_should_be_closed()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Test G-mail smoke scenario",
+    "description": "",
+    "id": "test-g-mail-smoke-scenario",
+    "keyword": "Feature",
+    "uri": "Application.feature"
+  }
+]

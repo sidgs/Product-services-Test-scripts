@@ -1,0 +1,74 @@
+[
+  {
+    "source": "^user should able to login successfully$",
+    "steps": [
+      {
+        "name": "user should able to login successfully",
+        "aggregatedDurations": {
+          "average": 8.270518939,
+          "median": 8.270518939
+        },
+        "durations": [
+          {
+            "duration": 8.270518939,
+            "location": "Application.feature:6"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^application should be closed$",
+    "steps": [
+      {
+        "name": "application should be closed",
+        "aggregatedDurations": {
+          "average": 1.625634398,
+          "median": 1.625634398
+        },
+        "durations": [
+          {
+            "duration": 1.625634398,
+            "location": "Application.feature:7"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^Open firefox and start application$",
+    "steps": [
+      {
+        "name": "Open firefox and start application",
+        "aggregatedDurations": {
+          "average": 65.442870726,
+          "median": 65.442870726
+        },
+        "durations": [
+          {
+            "duration": 65.442870726,
+            "location": "Application.feature:4"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^I enter valid \"([^\"]*)\" and valid \"([^\"]*)\"$",
+    "steps": [
+      {
+        "name": "I enter valid \"vnani@rocketmail.com\" and valid \"sathwika\"",
+        "aggregatedDurations": {
+          "average": 3.332161358,
+          "median": 3.332161358
+        },
+        "durations": [
+          {
+            "duration": 3.332161358,
+            "location": "Application.feature:5"
+          }
+        ]
+      }
+    ]
+  }
+]

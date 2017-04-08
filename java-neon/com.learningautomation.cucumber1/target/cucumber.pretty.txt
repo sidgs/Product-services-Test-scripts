@@ -1,0 +1,15 @@
+Feature: Test G-mail smoke scenario
+
+  Scenario Outline: Test login with valid credentials      [90m# Application.feature:3[0m
+    [36mGiven [0m[36mOpen firefox and start application[0m
+    [36mWhen [0m[36mI enter valid "<username>" and valid "<password>"[0m
+    [36mThen [0m[36muser should able to login successfully[0m
+    [36mThen [0m[36mapplication should be closed[0m
+
+    Examples: 
+
+  Scenario Outline: Test login with valid credentials              [90m# Application.feature:11[0m
+    [32mGiven [0m[32mOpen firefox and start application[0m                       [90m# Smoketestnew.Open_firefox_and_start_application()[0m
+    [32mWhen [0m[32mI enter valid "[0m[32m[1mvnani@rocketmail.com[0m[32m" and valid "[0m[32m[1msathwika[0m[32m"[0m [90m# Smoketestnew.I_enter_valid_and_valid(String,String)[0m
+    [32mThen [0m[32muser should able to login successfully[0m                    [90m# Smoketestnew.user_should_able_to_login_successfully()[0m
+    [32mThen [0m[32mapplication should be closed[0m                              [90m# Smoketestnew.application_should_be_closed()[0m

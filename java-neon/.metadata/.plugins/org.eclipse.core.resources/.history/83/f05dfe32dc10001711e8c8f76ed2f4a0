@@ -1,0 +1,12 @@
+Feature: Test G-mail smoke scenario
+
+  Scenario Outline: Test login with valid credentials
+    Given Open firefox and start application
+    When I enter valid "<username>" and valid "<password>"
+    Then user should able to login successfully
+
+    Examples: 
+      | username              | password     |
+      | vnani@rocketmail.com  | sathwika143  |
+      | vnani2@rocketmail.com | sathwika1432 |
+      | vnani3@rocketmail.com | sathwika1433 |
